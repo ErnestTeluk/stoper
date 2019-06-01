@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_bench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_bench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="20" />
+   <wvobject db_ref_id="1" fp_name="/test_bench/CLOCK_50" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">CLOCK_50</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_50</obj_property>
+      <obj_property name="label">CLOCK_50 (ZEGAR 50 MHz)</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/CLOCK_100" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">CLOCK_100</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_100</obj_property>
+      <obj_property name="label">CLOCK_100 (ZEGAR 100 MHz)</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/CLOCK_SW" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">CLOCK_SW</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_SW</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="label">CLOCK_SW (TYLKO GDY PARCUJE)</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/KEY[0]" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">KEY[0]</obj_property>
+      <obj_property name="label">KEY[0] (STEROWANIE)</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/KEY[1]" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[1]</obj_property>
+      <obj_property name="ObjectShortName">KEY[1]</obj_property>
+      <obj_property name="label">KEY[1] (RESET)</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/state" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+      <obj_property name="label">state (STAN STOPERA)</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/HEX0" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">HEX0[0:6]</obj_property>
+      <obj_property name="ObjectShortName">HEX0[0:6]</obj_property>
+      <obj_property name="label">HEX0[0:6] (MINUTY*10)</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/HEX1" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">HEX1[0:6]</obj_property>
+      <obj_property name="ObjectShortName">HEX1[0:6]</obj_property>
+      <obj_property name="label">HEX1[0:6] (MINUTY)</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/HEX2" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">HEX2[0:6]</obj_property>
+      <obj_property name="ObjectShortName">HEX2[0:6]</obj_property>
+      <obj_property name="label">HEX2[0:6] (SEKUNDY*10)</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/HEX3" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">HEX3[0:6]</obj_property>
+      <obj_property name="ObjectShortName">HEX3[0:6]</obj_property>
+      <obj_property name="label">HEX3[0:6] (SEKUNDY)</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/HEX4" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">HEX4[0:6]</obj_property>
+      <obj_property name="ObjectShortName">HEX4[0:6]</obj_property>
+      <obj_property name="label">HEX4[0:6] (DZIESIATA SEK)</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/HEX5" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">HEX5[0:6]</obj_property>
+      <obj_property name="ObjectShortName">HEX5[0:6]</obj_property>
+      <obj_property name="label">HEX5[0:6] (SETNE SEK)</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/tmins_bcd" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">tmins_bcd[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tmins_bcd[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">tmins_bcd[3:0] (MINUTY*10)</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/mins_bcd" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">mins_bcd[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mins_bcd[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">mins_bcd[3:0] (MINUTY)</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/tens_bcd" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">tens_bcd[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tens_bcd[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">tens_bcd[3:0] (SEKUNDY*10)</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/ones_bcd" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">ones_bcd[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ones_bcd[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">ones_bcd[3:0] (SEKUNDY)</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/tenths_bcd" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">tenths_bcd[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tenths_bcd[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">tenths_bcd[3:0] (DZIESIATE SEK)</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/hundredths_bcd" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">hundredths_bcd[3:0]</obj_property>
+      <obj_property name="ObjectShortName">hundredths_bcd[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">hundredths_bcd[3:0] (SETNE SEK)</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/speed_up" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">speed_up[31:0]</obj_property>
+      <obj_property name="ObjectShortName">speed_up[31:0]</obj_property>
+      <obj_property name="label">speed_up[31:0] (PRZYSPIESZENIE)</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test_bench/count" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">count[0:17]</obj_property>
+      <obj_property name="ObjectShortName">count[0:17]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="label">count[0:17] (LICZNIK PODZIELNIKA)</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>
